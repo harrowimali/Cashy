@@ -38,14 +38,6 @@ var cashRegister = {
 };
 // My Cash Register
 
-/*
-cashRegister.scan('eggs',1);
-cashRegister.scan('milk',1);
-cashRegister.scan('magazine',3);
-// things you want^^
-
-*/
-
             function myFunction() {
                 cashRegister.total = 0;
                 this.person = prompt("Please enter your name", "Yeezus");

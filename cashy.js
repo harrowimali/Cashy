@@ -61,7 +61,7 @@ if(person == "sally"){
                 
                 if (person != null && item != null && amount > 0) {
                     document.getElementById("final").innerHTML =
-                    "Hello " + person + " you're final total is " + cashRegister.total.toFixed(2) + "!";
+                    "Hello " + person + " your final total is " + cashRegister.total.toFixed(2) + "!";
             }
         }
 
